@@ -1,0 +1,7 @@
+name: "astrbot_plugin_tool_enhancer"
+display_name: "大模型工具调用增强器"
+desc: "通过系统级指令拦截，强制引导大模型判断意图并调用已有 MCP (如 MiniMax) 或内置工具，拒绝重复造轮子。"
+help: "只要用户的话语中包含搜索、识图意图，大模型就会被自动加上强制使用工具的提示词。"
+version: "1.0.0"
+author: "Renyus"
+repo: "https://github.com/Renyus/astrbot_plugin_tool_enhancer"
