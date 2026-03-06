@@ -1,4 +1,5 @@
 from astrbot.api.all import *
+from astrbot.api.event import filter
 import re
 
 @register("astrbot_plugin_tool_enhancer", "大模型工具调用增强器", "强制/优化大模型调用内置和外置 MCP 工具的系统级插件。", "1.0.0")
