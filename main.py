@@ -24,7 +24,7 @@ class ToolEnhancerPlugin(Star):
             if user_val:
                 self.enhancer_prompt = user_val
 
-    @filter.on_llm_request()
+    @filter.on_llm_request(priority=-100)
     async def on_request(self, event: AstrMessageEvent, req: ProviderRequest):
         """
         在 LLM 请求发送前注入增强指令。
